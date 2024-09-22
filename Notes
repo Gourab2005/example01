@@ -1,0 +1,37 @@
+POI:
+1.what is difference b/w git and github
+2.installation
+3.Some important command : cd -> change directory
+                           pwd -> present working directory
+                           cd .. ->To navigate to the outer (or parent) directory in a terminal
+                           ls -> to check which files are inside repo/folder
+------------------------------------------------------------------------------------------------
+1.Ckecking git version : git --version
+2.to run git command in your loocal repo/folder you have to at first initialize it with git.
+    command: git init 
+
+--------------At first let's see by cloning reposetory-----------------------------------------
+
+#Cloning a project -> git clone "reposetory link" (here no need of git init)
+
+<=----Some important commands----=>
+
+1. Let, we have made some changes in a file and we want to discard those changes/ remove those changes automatically.
+To restore paricular file
+command:git restore file_name
+
+example:->
+git restore index.html 
+git restore script.js
+
+2. To restore whole folder/repo
+command:git restore .
+
+3. "M" means modified and "A"
+4. Show status of git - > 
+command: git status
+5. For adding/staging changes 
+command: git add . (for cloned repo everytime)
+6. To unstage changes
+command: git restore --staged file_name
+7. 
